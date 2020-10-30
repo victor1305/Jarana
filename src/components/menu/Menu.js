@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import menuBreakfast from '../../images/desayunos.png'
 import menuColdDishes from '../../images/racionesfrias.png'
@@ -76,7 +76,7 @@ const Menu = () => {
 
 
     return (
-        <div className = "menu-container">
+        <div className = "menu-container" id = "menu">
             <h2 className = "menu-title">Carta</h2>
             <Container>
                 <Row >
@@ -112,148 +112,97 @@ const Menu = () => {
                         <Container>
                             <Row>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitBreakfast}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Desayunos</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitSnacks}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Meriendas</h4>
                                 </Col>
-                                <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                <Col md = {12} xl = {6} className = "btn-contaniner">                                    
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitLongSandwich}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Bocadillos</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitSandwich}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Sandwiches</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitBurgers}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Hamburguesas</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitTostas}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Tostas</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitColdDishes}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Raciones Frías</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitHotDishes}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Raciones Calientes</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitDrinks}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Cervezas y Refrescos</h4>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
-                                    <button
-                                        className = "menu-btn"
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitCafe}
+                                        href = "#menu"
                                     />
                                     <h4 className = "menu-items ">Licores y Café</h4>
                                 </Col>
                             </Row>
                         </Container>
-
-                        {/* <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitBreakfast}
-                            />
-                            <h4 className = "menu-items ">Desayunos</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitSnacks}
-                            />
-                            <h4 className = "menu-items ">Meriendas</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitLongSandwich}
-                            />
-                            <h4 className = "menu-items ">Bocadillos</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitSandwich}
-                            />
-                            <h4 className = "menu-items ">Sandwiches</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitBurgers}
-                            />
-                            <h4 className = "menu-items ">Hamburguesas</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitTostas}
-                            />
-                            <h4 className = "menu-items ">Tostas</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitColdDishes}
-                            />
-                            <h4 className = "menu-items ">Raciones Frías</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitHotDishes}
-                            />
-                            <h4 className = "menu-items ">Raciones Calientes</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitDrinks}
-                            />
-                            <h4 className = "menu-items ">Cervezas y Refrescos</h4>
-                        </div>
-                        <div className = "btn-contaniner">
-                            <button
-                                className = "menu-btn"
-                                onClick = {submitCafe}
-                            />
-                            <h4 className = "menu-items ">Licores y Café</h4>
-                        </div> */}
                     </Col>
                 </Row>
             </Container>
