@@ -30,7 +30,7 @@ const Footer = () => {
                     </Col>
                     <Col xs = {12} md = {4} className = "container-footer-cols">
                         <MapWithAMarker
-                            googleMapURL = "https://maps.googleapis.com/maps/api/js?key=API_KEY"
+                            googleMapURL = "https://maps.googleapis.com/maps/api/js?key=APIKEY"
                             loadingElement={<div style={{ height: `100%` }} />}
                             containerElement={<div style={{ height: `200px` }} />}
                             mapElement={<div style={{ height: `100%` }} />}
