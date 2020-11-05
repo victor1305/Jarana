@@ -17,11 +17,7 @@ const NavBar = () => {
             <Nav className="mr-auto">
             <Nav.Link style = {linkStyle} href="/quienes-somos">Quiénes Somos</Nav.Link>
             <Nav.Link style = {linkStyle} href="/nuestra-carta">Nuestra Carta</Nav.Link>
-
             </Nav>
-            {/* <Nav className = "contact-nav">
-            <Nav.Link href="#footer">Contacto</Nav.Link>
-            </Nav> */}
         </Navbar.Collapse>
         </Navbar>
         

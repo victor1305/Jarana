@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import MapWithAMarker from './Map'
 
-import facebookLogo from '../../images/facebook.png'
-import instagramLogo from '../../images/instagram.png'
+import facebookLogo from '../../images/icons/facebook.png'
+import instagramLogo from '../../images/icons/instagram.png'
 
 
 const Footer = () => {

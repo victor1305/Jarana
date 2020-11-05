@@ -1,5 +1,5 @@
  html {
-  background-image: url('./images/17894577.jpg');
+  background-image: url('./images/background.jpg');
   scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ body {
 
 .header {
   font-family: 'Red Flower';
-  background-image: url('./images/17894577.jpg');
+  background-image: url('./images/background.jpg');
   font-size: 2rem;
   letter-spacing: 0.05em;
   border-bottom: 1px solid white ;
@@ -45,7 +45,7 @@ body {
   padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 10%;
-  background-image: url('./images/17894577.jpg')
+  background-image: url('./images/background.jpg')
 }
 
 .home-title {
@@ -99,7 +99,7 @@ body {
 }
 
 .menu-container {
-  background-image: url('./images/17894577.jpg');
+  background-image: url('./images/background.jpg');
   color: #ffffff;
 }
 
@@ -135,7 +135,7 @@ body {
   height: 50px;
   border-color: black;
   border-radius: 50%;
-  background-image: url('./images/boton.png');
+  background-image: url('./images/button.png');
   background-position: center;
   background-size: contain;
   margin-top: 5%;
@@ -226,7 +226,7 @@ body {
 }
 
 .about-us-container {
-  background-image: url('./images/17894577.jpg');
+  background-image: url('./images/background.jpg');
   color: #ffffff;
   text-align: center;
   padding: 5% 15% ;
@@ -246,7 +246,7 @@ body {
 
 .footer {
   border-top: 1px solid white ;
-  background-image: url('./images/17894577.jpg');
+  background-image: url('./images/background.jpg');
   color: #ffffff;
   padding: 4%;
 }

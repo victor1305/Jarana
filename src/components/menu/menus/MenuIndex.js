@@ -1,5 +1,5 @@
 import React from 'react';
-import cacerola from '../../../images/iconos/Iconos Optimizados/puchero.png'
+import cacerola from '../../../images/icons/puchero.png'
 
 const MenuIndex = () => {
     return (

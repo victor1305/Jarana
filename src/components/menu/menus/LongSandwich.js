@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import footerImage from '../../../images/jaranaback_opt(1).png'
-import logoTitleLongSandwich from '../../../images/iconos/Iconos Optimizados/longSandwich.png'
+import footerImage from '../../../images/jaranaBackLittle.png'
+import logoTitleLongSandwich from '../../../images/icons/longSandwich.png'
 
 const LongSandwich = () => {
     

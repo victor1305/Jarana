@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import footerImage from '../../../images/jaranaback_opt(1).png'
-import logoTitleSnacks from '../../../images/iconos/Iconos Optimizados/tortitas.png'
+import footerImage from '../../../images/jaranaBackLittle.png'
+import logoTitleSnacks from '../../../images/icons/tortitas.png'
 
 const Snacks = () => {
     

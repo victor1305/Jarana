@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import MenuIndex from './menus/MenuIndex'
-
 import Breakfast from './menus/Breakfast'
 import Snacks from './menus/Snacks'
 import LongSandwich from './menus/LongSandwich'
@@ -81,40 +80,29 @@ const Menu = () => {
             <h2 className = "menu-title">Carta</h2>
             <Container>
                 <Row >
-
                     <Col sm = {12} md = {{span: 6, order: 2}} >
                         <div className = "menu-image-container">
                             {menu.type === "" &&
                             <MenuIndex />}
                             {menu.type === "breakfast" &&
-                            // <img src = {menuBreakfast} alt = "menu" className = "menu-images"/>}
                             <Breakfast/>}
                             {menu.type === "snacks" &&
-                            // <img src = {menuSnacks} alt = "menu" className = "menu-images"/>}
                             <Snacks/>}
                             {menu.type === "hot-dishes" &&
-                            // <img src = {menuHotDishes} alt = "menu" className = "menu-images"/>}
                             <HotDishes/>}
                             {menu.type === "cold-dishes" &&
-                            // <img src = {menuColdDishes} alt = "menu" className = "menu-images"/>}
                             <ColdDishes/>}
                             {menu.type === "burgers" &&
-                            // <img src = {menuBurger} alt = "menu" className = "menu-images"/>}
                             <Burgers/>}
                             {menu.type === "sandwich" &&
-                            // <img src = {menuSandwich} alt = "menu" className = "menu-images"/>}
                             <Sandwich/>}
                             {menu.type === "long-sandwich" &&
-                            // <img src = {menuLongSandwich} alt = "menu" className = "menu-images"/>}
                             <LongSandwich/>}
                             {menu.type === "tostas" &&
-                            // <img src = {menuTostas} alt = "menu" className = "menu-images"/>}
                             <Tostas/>}
                             {menu.type === "drinks" &&
-                            // <img src = {menuDrinks} alt = "menu" className = "menu-images"/>}
                             <Drinks/>}
                             {menu.type === "cafe" &&
-                            // <img src = {menuCafe} alt = "menu" className = "menu-images"/>}
                             <Coffee/>}
                         </div>
                     </Col>
@@ -129,7 +117,6 @@ const Menu = () => {
                                         onClick = {submitBreakfast}
                                         href = "#menu"
                                     />
-                                    {/* <h4 className = "menu-items ">Desayunos</h4> */}
                                     <Button
                                         className = "bg-transparent menu-btn-text"
                                         variant = "dark"
@@ -150,7 +137,6 @@ const Menu = () => {
                                         onClick = {submitSnacks}
                                         href = "#menu"
                                     >Meriendas</Button>
-                                    {/* <h4 className = "menu-items ">Meriendas</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">                                    
                                     <Button        
@@ -165,7 +151,6 @@ const Menu = () => {
                                         onClick = {submitLongSandwich}
                                         href = "#menu"
                                     >Bocadillos</Button>
-                                    {/* <h4 className = "menu-items ">Bocadillos</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -180,7 +165,6 @@ const Menu = () => {
                                         onClick = {submitSandwich}
                                         href = "#menu"
                                     >Sandwiches</Button>
-                                    {/* <h4 className = "menu-items ">Sandwiches</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -195,7 +179,6 @@ const Menu = () => {
                                         onClick = {submitBurgers}
                                         href = "#menu"
                                     >Hamburguesas</Button>
-                                    {/* <h4 className = "menu-items ">Hamburguesas</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -210,7 +193,6 @@ const Menu = () => {
                                         onClick = {submitTostas}
                                         href = "#menu"
                                     >Tostas</Button>
-                                    {/* <h4 className = "menu-items ">Tostas</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -225,7 +207,6 @@ const Menu = () => {
                                         onClick = {submitColdDishes}
                                         href = "#menu"
                                     >Raciones Frías</Button>
-                                    {/* <h4 className = "menu-items ">Raciones Frías</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -240,7 +221,6 @@ const Menu = () => {
                                         onClick = {submitHotDishes}
                                         href = "#menu"
                                     >Raciones Calientes</Button>
-                                    {/* <h4 className = "menu-items ">Raciones Calientes</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -255,7 +235,6 @@ const Menu = () => {
                                         onClick = {submitDrinks}
                                         href = "#menu"
                                     >Bebidas</Button>
-                                    {/* <h4 className = "menu-items ">Cervezas y Refrescos</h4> */}
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
@@ -270,7 +249,6 @@ const Menu = () => {
                                         onClick = {submitCafe}
                                         href = "#menu"
                                     >Licores y Café</Button>
-                                    {/* <h4 className = "menu-items ">Licores y Café</h4> */}
                                 </Col>
                             </Row>
                         </Container>

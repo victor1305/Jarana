@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import footerImage from '../../../images/jaranaback_opt(1).png'
-import estrellaLogo from '../../../images/iconos/Iconos Optimizados/estrellaGalicia.png'
-import mahouLogo from '../../../images/iconos/Iconos Optimizados/mahou.png'
-import especialLogo from '../../../images/iconos/Iconos Optimizados/1906.png'
-import logoTitleDrinks from '../../../images/iconos/Iconos Optimizados/cups.png'
+import footerImage from '../../../images/jaranaBackLittle.png'
+import estrellaLogo from '../../../images/icons/estrellaGalicia.png'
+import mahouLogo from '../../../images/icons/mahou.png'
+import especialLogo from '../../../images/icons/1906.png'
+import logoTitleDrinks from '../../../images/icons/cups.png'
 
 const Drinks = () => {
     

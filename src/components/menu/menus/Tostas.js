@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import footerImage from '../../../images/jaranaback_opt(1).png'
-import logoTitleTostas from '../../../images/iconos/Iconos Optimizados/tosta.png'
+import footerImage from '../../../images/jaranaBackLittle.png'
+import logoTitleTostas from '../../../images/icons/tosta.png'
 
 const Tostas = () => {
     
@@ -53,14 +53,6 @@ const Tostas = () => {
                         <p className = "item-p-price">6.00€</p>
                     </Col>
                 </Row>
-                {/* <Row>
-                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Bacon con huevos de codorniz</p>
-                    </Col>
-                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
-                    </Col>
-                </Row> */}
                 <div className = "item-footer-container">
                     <p className = "item-footer">*Suplemento de terraza: 10%</p>
                     <p className = "item-footer">*Todos los precios llevan el I.V.A. incluido</p>
