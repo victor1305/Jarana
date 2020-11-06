@@ -248,6 +248,14 @@ body {
   text-align: left;
 }
 
+.about-us-image {
+  width: 75%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  border: 4px solid #e4b494;
+  border-radius: 2%;
+}
+
 .footer {
   border-top: 1px solid #e4b494 ;
   background-image: url('./images/background.jpg');
@@ -274,6 +282,7 @@ body {
 .container-footer-images {
   display: flex;
   justify-content: center;
+  padding-bottom: 6%;
 }
 
 .footer-image-instagram {
