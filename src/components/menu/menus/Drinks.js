@@ -6,6 +6,7 @@ import footerImage from '../../../images/jaranaBackLittle.png'
 import estrellaLogo from '../../../images/icons/estrellaGalicia.png'
 import mahouLogo from '../../../images/icons/mahou.png'
 import especialLogo from '../../../images/icons/1906.png'
+import estrellaSin from '../../../images/icons/logotipo-estrella-galicia-00.png'
 import logoTitleDrinks from '../../../images/icons/cups.png'
 
 const Drinks = () => {
@@ -42,7 +43,7 @@ const Drinks = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Tercio <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza"/><img className = "beer-logo" src = {mahouLogo} alt = "logo-cerveza"/></p>
+                        <p className = "item-p-text">Tercio <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza-estrella"/><img className = "beer-logo" src = {estrellaSin} alt = "logo-cerveza-sin"/><img className = "beer-logo" src = {mahouLogo} alt = "logo-cerveza-mahou"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">2.50€</p>
