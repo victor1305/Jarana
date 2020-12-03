@@ -12,6 +12,10 @@ import ColdDishes from './menus/ColdDishes'
 import HotDishes from './menus/HotDishes'
 import Coffee from './menus/Coffee';
 import Drinks from './menus/Drinks';
+import ChristmasA from './menus/ChristmasA';
+import ChristmasB from './menus/ChristmasB';
+
+import christmas2 from '../../images/papanoel.png'
 
 const Menu = () => {
 
@@ -74,10 +78,19 @@ const Menu = () => {
         updateMenu({type: "cafe"})
     }
 
+    const submitChristmasA = () => {
+
+        updateMenu({type: "christmasA"})
+    }
+    const submitChristmasB = () => {
+
+        updateMenu({type: "christmasB"})
+    }
+
 
     return (
         <div className = "menu-container" id = "menu">
-            <h2 className = "menu-title">Carta</h2>
+            <h2 className = "menu-title">Carta<img className = "christmas-2" src = {christmas2} alt = "Adorno Navidad"/></h2>
             <Container>
                 <Row >
                     <Col sm = {12} md = {{span: 6, order: 2}} >
@@ -104,6 +117,10 @@ const Menu = () => {
                             <Drinks/>}
                             {menu.type === "cafe" &&
                             <Coffee/>}
+                            {menu.type === "christmasA" &&
+                            <ChristmasA/>}
+                            {menu.type === "christmasB" &&
+                            <ChristmasB/>}
                         </div>
                     </Col>
                     <Col sm = {12} md = {{span: 6, order: 1}}>
@@ -249,6 +266,34 @@ const Menu = () => {
                                         onClick = {submitCafe}
                                         href = "#menu"
                                     >Licores y Café</Button>
+                                </Col>
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
+                                        onClick = {submitChristmasA}
+                                        href = "#menu"
+                                    />
+                                    <Button
+                                        className = "bg-transparent menu-btn-text"
+                                        variant = "dark"
+                                        onClick = {submitChristmasA}
+                                        href = "#menu"
+                                    >Menú Navidad 1</Button>
+                                </Col>
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
+                                        onClick = {submitChristmasB}
+                                        href = "#menu"
+                                    />
+                                    <Button
+                                        className = "bg-transparent menu-btn-text"
+                                        variant = "dark"
+                                        onClick = {submitChristmasB}
+                                        href = "#menu"
+                                    >Menú Navidad 2</Button>
                                 </Col>
                             </Row>
                         </Container>

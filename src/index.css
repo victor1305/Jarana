@@ -41,11 +41,26 @@ body {
 
 .image-container {
   width: 100%;
-  padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 10%;
   background-image: url('./images/background.jpg')
+}
+
+.christmas-1-container {
+  text-align: center;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.christmas-1 {
+  width: 5rem;
+}
+
+.christmas-2 {
+  width: 5rem;
+  margin-left: 1rem;
 }
 
 .home-title {
@@ -183,6 +198,49 @@ body {
 .logo-title-item {
   padding-bottom: 4%;
   width: 25%
+}
+
+.logo-title-item-christmas {
+  padding-bottom: 4%;
+  width: 35%
+}
+
+.item-christmas-subtitle {
+  text-align: center;
+  font-family: 'Red Flower';
+  font-size: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0px;
+  color: #e4b494;
+  text-align: center;
+}
+
+.item-christmas-price {
+  text-align: center;
+  font-family: 'Red Flower';
+  font-size: 3rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0px;
+  color: #e4b494;
+  text-align: center;
+}
+
+.item-christmas-p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.item-footer-container-christmas {
+  padding-top: 2%;
+}
+
+.item-footer-christmas {
+  font-size: 1rem;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 .item-title {
