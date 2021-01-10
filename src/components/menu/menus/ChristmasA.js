@@ -8,7 +8,7 @@ const ChristmasA = () => {
         <div className = "item-container">
             <h2 className = "item-title">Menú Navidad 1</h2>
             <img className = "logo-title-item-christmas" src = {logoTitleSnacks} alt = "logo-titulo"/>
-            <h4 className = "item-christmas-subtitle">Entrantes (Para cada 4 personas)</h4>
+            <h4 className = "item-christmas-subtitle">Entrantes</h4>
             <p className = "item-christmas-p">Revuelto de Morcilla</p>
             <p className = "item-christmas-p">Champiñones con Jamón</p>
             <p className = "item-christmas-p">Entremeses Variados</p>
@@ -25,9 +25,9 @@ const ChristmasA = () => {
             <p className = "item-christmas-p">Café y copa de cava</p>
             <h3 className = "item-christmas-price">35€</h3>
             <div className = "item-footer-container-christmas">
-                    <p className = "item-footer-christmas">*Todos los precios llevan el I.V.A. incluido</p>
-                </div>
-                <img className = "item-footer-image" src = {footerImage} alt = "logo"/>
+                <p className = "item-footer-christmas">*Todos los precios llevan el I.V.A. incluido</p>
+            </div>
+            <img className = "item-footer-image" src = {footerImage} alt = "logo"/>
         </div>
     );
 }

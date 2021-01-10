@@ -15,8 +15,6 @@ import Drinks from './menus/Drinks';
 import ChristmasA from './menus/ChristmasA';
 import ChristmasB from './menus/ChristmasB';
 
-import christmas2 from '../../images/papanoel.png'
-
 const Menu = () => {
 
     // Menu state
@@ -78,19 +76,19 @@ const Menu = () => {
         updateMenu({type: "cafe"})
     }
 
-    const submitChristmasA = () => {
+    // const submitChristmasA = () => {
 
-        updateMenu({type: "christmasA"})
-    }
-    const submitChristmasB = () => {
+    //     updateMenu({type: "christmasA"})
+    // }
+    // const submitChristmasB = () => {
 
-        updateMenu({type: "christmasB"})
-    }
+    //     updateMenu({type: "christmasB"})
+    // }
 
 
     return (
         <div className = "menu-container" id = "menu">
-            <h2 className = "menu-title">Carta<img className = "christmas-2" src = {christmas2} alt = "Adorno Navidad"/></h2>
+            <h2 className = "menu-title">Carta</h2>
             <Container>
                 <Row >
                     <Col sm = {12} md = {{span: 6, order: 2}} >
@@ -267,7 +265,7 @@ const Menu = () => {
                                         href = "#menu"
                                     >Licores y Café</Button>
                                 </Col>
-                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                {/* <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
                                         className = "bg-transparent menu-btn"
                                         variant = "dark"
@@ -294,7 +292,7 @@ const Menu = () => {
                                         onClick = {submitChristmasB}
                                         href = "#menu"
                                     >Menú Navidad 2</Button>
-                                </Col>
+                                </Col> */}
                             </Row>
                         </Container>
                     </Col>

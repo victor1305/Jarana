@@ -8,7 +8,7 @@ const ChristmasB = () => {
         <div className = "item-container">
             <h2 className = "item-title">Menú Navidad 2</h2>
             <img className = "logo-title-item-christmas" src = {logoTitleSnacks} alt = "logo-titulo"/>
-            <h4 className = "item-christmas-subtitle">Entrantes (Para cada 4 personas)</h4>
+            <h4 className = "item-christmas-subtitle">Entrantes</h4>
             <p className = "item-christmas-p">Langostinos a la Plancha</p>
             <p className = "item-christmas-p">Ensalada de Ventresca con Pimientos</p>
             <p className = "item-christmas-p">Tabla de Jamón Ibérico y Queso Curado</p>
@@ -25,9 +25,9 @@ const ChristmasB = () => {
             <p className = "item-christmas-p">Café y copa de cava</p>
             <h3 className = "item-christmas-price">40€</h3>
             <div className = "item-footer-container-christmas">
-                    <p className = "item-footer-christmas">*Todos los precios llevan el I.V.A. incluido</p>
-                </div>
-                <img className = "item-footer-image" src = {footerImage} alt = "logo"/>
+                <p className = "item-footer-christmas">*Todos los precios llevan el I.V.A. incluido</p>
+            </div>
+            <img className = "item-footer-image" src = {footerImage} alt = "logo"/>
         </div>
     );
 }
