@@ -47,7 +47,7 @@ const Tostas = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Solomillo con queso brie</p>
+                        <p className = "item-p-text">Solomillo con queso de cabra</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">6.00€</p>

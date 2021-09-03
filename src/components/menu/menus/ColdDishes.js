@@ -42,21 +42,50 @@ const ColdDishes = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Ensalada mixta</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">8.90€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Ensalada Cesar</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">10.00€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Ensalada templada <small>(espinacas, bacon y rulo de cabra)</small></p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">11.00€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Ensaladilla Rusa</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">7.00€</p>
                     </Col>
                 </Row>
+                {/* <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Vaso de Gazpacho</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">1.50€</p>
+                    </Col>
+                </Row> */}
                 <Row>
-                    <Col xs = {6} sm = {6} md = {6} xl = {6}>
-                        <p className = "item-p-text">Lacón a la gallega</p>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Postres (Consultar)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.10€</p>
-                    </Col>
-                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">11.00€</p>
+                        <p className = "item-p-price">3.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

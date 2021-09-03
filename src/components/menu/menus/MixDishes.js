@@ -3,35 +3,26 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import footerImage from '../../../images/jaranaBackLittle.png'
-import logoTitleBurger from '../../../images/icons/burger.png'
+import logoTitleMixDishes from '../../../images/icons/mixdish.png'
 
-const Burgers = () => {
+const MixDishes = () => {
     
-    return (
-
+    return (  
         <div className = "item-container">
-            <h2 className = "item-title">Hamburguesas</h2>
-            <img className = "logo-title-item" src = {logoTitleBurger} alt = "logo-titulo"/>
+            <h2 className = "item-title">Platos Combinados</h2>
+            <img className = "logo-title-item" src = {logoTitleMixDishes} alt = "logo-titulo"/>
             <Container>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Hamburguesa Clásica</p>
+                        <p className = "item-p-text">Nº1 (Filete de ternera, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Hamburguesa de pollo</p>
-                    </Col>
-                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Hamburguesa Jarana <small>(carne, queso, bacon, lechuga, tomate, mayonesa y huevo frito)</small></p>
+                        <p className = "item-p-text">Nº2 (Filete de pollo a la plancha, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">7.00€</p>
@@ -39,18 +30,18 @@ const Burgers = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Perrito Caliente Jarana <small>(salchicha, bacon, queso, cebolla frita, ketchup y mahonesa)</small></p>
+                        <p className = "item-p-text">Nº3 (Filetes de lomo, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
+                        <p className = "item-p-price">7.00€</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text"><small>Todas nuestras hamburguesas y perritos incluyen patatas fritas.</small></p>
+                        <p className = "item-p-text">Nº4 (Huevos, panceta y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price"></p>
+                        <p className = "item-p-price">6.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">
@@ -63,4 +54,4 @@ const Burgers = () => {
     );
 }
  
-export default Burgers;
+export default MixDishes;

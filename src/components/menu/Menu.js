@@ -14,6 +14,7 @@ import Coffee from './menus/Coffee';
 import Drinks from './menus/Drinks';
 import ChristmasA from './menus/ChristmasA';
 import ChristmasB from './menus/ChristmasB';
+import MixDishes from './menus/MixDishes';
 
 const Menu = () => {
 
@@ -76,6 +77,11 @@ const Menu = () => {
         updateMenu({type: "cafe"})
     }
 
+    const submitMixDishes = () => {
+
+        updateMenu({type: "mix-dishes"})
+    }
+
     // const submitChristmasA = () => {
 
     //     updateMenu({type: "christmasA"})
@@ -119,6 +125,8 @@ const Menu = () => {
                             <ChristmasA/>}
                             {menu.type === "christmasB" &&
                             <ChristmasB/>}
+                            {menu.type === "mix-dishes" &&
+                            <MixDishes/>}
                         </div>
                     </Col>
                     <Col sm = {12} md = {{span: 6, order: 1}}>
@@ -236,6 +244,20 @@ const Menu = () => {
                                         onClick = {submitHotDishes}
                                         href = "#menu"
                                     >Raciones Calientes</Button>
+                                </Col>
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
+                                        onClick = {submitMixDishes}
+                                        href = "#menu"
+                                    />
+                                    <Button
+                                        className = "bg-transparent menu-btn-text"
+                                        variant = "dark"
+                                        onClick = {submitMixDishes}
+                                        href = "#menu"
+                                    >Plato Combinado</Button>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        

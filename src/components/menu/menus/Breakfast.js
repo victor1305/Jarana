@@ -53,6 +53,14 @@ const Breakfast = () => {
                         <p className = "item-p-price">4.10€</p>
                     </Col>
                 </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Refresco con mixto</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">4.80€</p>
+                    </Col>
+                </Row>
                 <div className = "item-footer-container">
                     <p className = "item-footer">*Suplemento de terraza: 10%</p>
                     <p className = "item-footer">*Todos los precios llevan el I.V.A. incluido</p>
