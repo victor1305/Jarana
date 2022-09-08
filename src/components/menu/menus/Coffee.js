@@ -18,7 +18,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Café con leche, solo o cortado</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">1.40€</p>
+                        <p className = "item-p-price">1.45€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Café bombón</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.40€</p>
+                        <p className = "item-p-price">2.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Infusiones</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">1.40€</p>
+                        <p className = "item-p-price">1.45€</p>
                     </Col>
                 </Row>
                 <Row>

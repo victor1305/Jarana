@@ -74,6 +74,10 @@ body {
   /* color: #e4b494 */
 }
 
+.menu-principal-title {
+  font-size: 4.5rem !important;
+}
+
 .menu-subtitle {
   text-align: left;
   font-family: 'Red Flower';

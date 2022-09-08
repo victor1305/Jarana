@@ -15,10 +15,10 @@ const Tostas = () => {
             <Container >
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Gulas o gambas con alioli</p>
+                        <p className = "item-p-text">Gulas con alioli</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
+                        <p className = "item-p-price">6.30€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Salmón ahumado con crema de queso</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.50€</p>
+                        <p className = "item-p-price">6.60€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Queso de cabra con cebolla caramelizada</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
+                        <p className = "item-p-price">6.20€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -42,7 +42,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Jamón ibérico con tomate y AOVE</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.50€</p>
+                        <p className = "item-p-price">6.60€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -50,7 +50,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Solomillo con queso de cabra</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
+                        <p className = "item-p-price">6.30€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

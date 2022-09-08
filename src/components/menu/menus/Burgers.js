@@ -18,15 +18,23 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Clásica</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
+                        <p className = "item-p-price">6.50€</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Hamburguesa de pollo</p>
+                        <p className = "item-p-text">Hamburguesa de Pollo</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
+                        <p className = "item-p-price">6.50€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Hamburguesa de rulo de cabra y cebolla caramelizada</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,17 +42,17 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Jarana <small>(carne, queso, bacon, lechuga, tomate, mayonesa y huevo frito)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Perrito Caliente Jarana <small>(salchicha, bacon, queso, cebolla frita, ketchup y mahonesa)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">5.00€</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text"><small>Todas nuestras hamburguesas y perritos incluyen patatas fritas.</small></p>

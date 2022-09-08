@@ -17,7 +17,7 @@ const MixDishes = () => {
                         <p className = "item-p-text">Nº1 (Filete de ternera, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.50€</p>
+                        <p className = "item-p-price">9.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -25,7 +25,7 @@ const MixDishes = () => {
                         <p className = "item-p-text">Nº2 (Filete de pollo a la plancha, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -33,7 +33,7 @@ const MixDishes = () => {
                         <p className = "item-p-text">Nº3 (Filetes de lomo, huevos y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -41,7 +41,7 @@ const MixDishes = () => {
                         <p className = "item-p-text">Nº4 (Huevos, panceta y patatas fritas)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
+                        <p className = "item-p-price">7.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">
