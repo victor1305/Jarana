@@ -59,7 +59,7 @@ const LongSandwich = () => {
                 </Row>
                 <Row>
                     <Col xs = {6} sm = {6} md = {6} xl = {6}>
-                        <p className = "item-p-text">Jamón ibérico con tomate</p>
+                        <p className = "item-p-text">Jamón con tomate</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">6.50€</p>

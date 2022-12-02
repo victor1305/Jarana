@@ -17,13 +17,13 @@ const ChristmasB = () => {
             <p className = "item-christmas-p">Chuletón al Gusto</p>
             <p className = "item-christmas-p">Merluza en Salsa Verde</p>
             <h4 className = "item-christmas-subtitle">Postre (A elegir)</h4>
-            <p className = "item-christmas-p">Arroz con Leche, Pudding, Natillas o Flan</p>
+            <p className = "item-christmas-p">Arroz con Leche, Natillas o Flan</p>
             <h4 className = "item-christmas-subtitle">Bebidas (A elegir)</h4>
             <p className = "item-christmas-p">Rioja de la Casa y Blanco de Rueda o Albariño (2 por cada 4 personas)</p>
             <p className = "item-christmas-p">Cerveza o Refresco (2 por persona)</p>
             <br></br>
             <p className = "item-christmas-p">Café y copa de cava</p>
-            <h3 className = "item-christmas-price">40€</h3>
+            <h3 className = "item-christmas-price">45€</h3>
             <div className = "item-footer-container-christmas">
                 <p className = "item-footer-christmas">*Todos los precios llevan el I.V.A. incluido</p>
             </div>

@@ -7,6 +7,7 @@ import Snacks from './menus/Snacks'
 import LongSandwich from './menus/LongSandwich'
 import Sandwich from './menus/Sandwiches';
 import Burgers from './menus/Burgers'
+import Pizzas from './menus/Pizzas'
 import Tostas from './menus/Tostas'
 import ColdDishes from './menus/ColdDishes'
 import HotDishes from './menus/HotDishes'
@@ -62,6 +63,11 @@ const Menu = () => {
         updateMenu({type: "burgers"})
     }
 
+    const submitPizzas = () => {
+
+        updateMenu({type: "pizzas"})
+    }
+
     const submitTostas = () => {
 
         updateMenu({type: "tostas"})
@@ -82,14 +88,14 @@ const Menu = () => {
         updateMenu({type: "mix-dishes"})
     }
 
-    // const submitChristmasA = () => {
+    const submitChristmasA = () => {
 
-    //     updateMenu({type: "christmasA"})
-    // }
-    // const submitChristmasB = () => {
+        updateMenu({type: "christmasA"})
+    }
+    const submitChristmasB = () => {
 
-    //     updateMenu({type: "christmasB"})
-    // }
+        updateMenu({type: "christmasB"})
+    }
 
 
     return (
@@ -111,6 +117,8 @@ const Menu = () => {
                             <ColdDishes/>}
                             {menu.type === "burgers" &&
                             <Burgers/>}
+                            {menu.type === "pizzas" &&
+                            <Pizzas/>}
                             {menu.type === "sandwich" &&
                             <Sandwich/>}
                             {menu.type === "long-sandwich" &&
@@ -207,6 +215,20 @@ const Menu = () => {
                                     <Button        
                                         className = "bg-transparent menu-btn"
                                         variant = "dark"
+                                        onClick = {submitPizzas}
+                                        href = "#menu"
+                                    />
+                                    <Button
+                                        className = "bg-transparent menu-btn-text"
+                                        variant = "dark"
+                                        onClick = {submitPizzas}
+                                        href = "#menu"
+                                    >Pizzas</Button>
+                                </Col>
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
                                         onClick = {submitTostas}
                                         href = "#menu"
                                     />
@@ -287,7 +309,7 @@ const Menu = () => {
                                         href = "#menu"
                                     >Licores y Café</Button>
                                 </Col>
-                                {/* <Col md = {12} xl = {6} className = "btn-contaniner">
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
                                         className = "bg-transparent menu-btn"
                                         variant = "dark"
@@ -314,7 +336,7 @@ const Menu = () => {
                                         onClick = {submitChristmasB}
                                         href = "#menu"
                                     >Menú Navidad 2</Button>
-                                </Col> */}
+                                </Col>
                             </Row>
                         </Container>
                     </Col>
