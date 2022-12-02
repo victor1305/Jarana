@@ -166,6 +166,14 @@ const HotDishes = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Cachopo de cecina y rulo de cabra (Por encargo)</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">27.00€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Chuletón (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
