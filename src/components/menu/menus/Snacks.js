@@ -26,7 +26,7 @@ const Snacks = () => {
                         <p className = "item-p-text">Café con barrita con tomate</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.40€</p>
+                        <p className = "item-p-price">3.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Snacks = () => {
                         <p className = "item-p-text">Café con barrita con tomate y jamón</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.90€</p>
+                        <p className = "item-p-price">4.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -42,7 +42,7 @@ const Snacks = () => {
                         <p className = "item-p-text">Café con <small>(Sandwich mixto o croissant mixto plancha)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">4.40€</p>
+                        <p className = "item-p-price">4.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -66,7 +66,7 @@ const Snacks = () => {
                         <p className = "item-p-text">Refresco con mixto</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.30€</p>
+                        <p className = "item-p-price">5.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -74,7 +74,7 @@ const Snacks = () => {
                         <p className = "item-p-text">Refresco con pincho de tortilla</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.10€</p>
+                        <p className = "item-p-price">5.50€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

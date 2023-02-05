@@ -63,7 +63,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Ensaladilla Rusa</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">8.00€</p>
+                        <p className = "item-p-price">8.50€</p>
                     </Col>
                 </Row>
                 {/* <Row>

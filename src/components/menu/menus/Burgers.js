@@ -18,7 +18,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Clásica</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.50€</p>
+                        <p className = "item-p-price">7.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa de Pollo</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.50€</p>
+                        <p className = "item-p-price">7.00€</p>
                     </Col>
                 </Row>
                 <Row>

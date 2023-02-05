@@ -84,7 +84,7 @@ const LongSandwich = () => {
                         <p className = "item-p-text">Tortilla de patata</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.50€</p>
+                        <p className = "item-p-price">6.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -116,7 +116,7 @@ const LongSandwich = () => {
                         <p className = "item-p-text">Panceta</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.50€</p>
+                        <p className = "item-p-price">6.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -124,7 +124,7 @@ const LongSandwich = () => {
                         <p className = "item-p-text">Jarana<small> (Lomo, bacon, queso y tomate)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                 </Row>
                 <Row>
