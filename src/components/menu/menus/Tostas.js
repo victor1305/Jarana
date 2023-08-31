@@ -18,7 +18,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Gulas con alioli</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Salmón ahumado con crema de queso</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Queso de cabra con cebolla caramelizada</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -42,7 +42,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Jamón con tomate y AOVE</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -50,7 +50,7 @@ const Tostas = () => {
                         <p className = "item-p-text">Solomillo con queso de cabra</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

@@ -42,7 +42,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Jarana <small>(carne, queso, bacon, lechuga, tomate, mayonesa y huevo frito)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.50€</p>
+                        <p className = "item-p-price">8.50€</p>
                     </Col>
                 </Row>
                 <Row>

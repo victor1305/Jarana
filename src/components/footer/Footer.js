@@ -30,14 +30,14 @@ const Footer = () => {
                             <a href = "https://www.tripadvisor.es/Restaurant_Review-g1063667-d21376099-Reviews-Bar_Cafeteria_Jarana-Valdemoro.html" target="_blank" rel="noopener noreferrer" className = "footer-image-instagram"><img className = "footer-image-instagram" src = {tripadvisorLogo} alt = "logo-tripadvisor"/></a>
                         </div>
                     </Col>
-                    <Col xs = {12} md = {4} className = "container-footer-cols">
+                    {/* <Col xs = {12} md = {4} className = "container-footer-cols">
                         <MapWithAMarker
                             googleMapURL = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBHfAU2RmVYVCi46jtHz_SZjXWWkN-_GYI"
                             loadingElement={<div style={{ height: `100%` }} />}
                             containerElement={<div style={{ height: `200px` }} />}
                             mapElement={<div style={{ height: `100%` }} />}
                         />
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </div>

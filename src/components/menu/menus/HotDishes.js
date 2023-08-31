@@ -125,11 +125,30 @@ const HotDishes = () => {
                     </Col>
                 </Row>
                 <Row>
+                    <Col xs = {6} sm = {6} md = {6} xl = {6}>
+                        <p className = "item-p-text">Croquetas (6 ó 11ud)</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">7.00€</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">12.00€</p>
+                    </Col>
+                </Row>
+                <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Pincho de tortilla</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">4.20€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Tigres</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">12.00€</p>
                     </Col>
                 </Row>
                 <Row>
