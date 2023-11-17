@@ -18,7 +18,7 @@ const Sandwich = () => {
                         <p className = "item-p-text">Mixto</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.70€</p>
+                        <p className = "item-p-price">3.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Sandwich = () => {
                         <p className = "item-p-text">Mixto con huevo</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">4.70€</p>
+                        <p className = "item-p-price">4.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Sandwich = () => {
                         <p className = "item-p-text">Vegetal</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">4.90€</p>
+                        <p className = "item-p-price">5.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -42,7 +42,7 @@ const Sandwich = () => {
                         <p className = "item-p-text">Jarana <small>(2 pisos con jamon york, queso, bacon, lechuga, tomate, mayonesa y huevo frito). *Incluye patatas fritas.</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.50€</p>
+                        <p className = "item-p-price">8.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">
