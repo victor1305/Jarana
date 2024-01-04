@@ -15,10 +15,10 @@ const Breakfast = () => {
             <Container>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Café con <small>(Tostada, croissant a la plancha, churros o porras)</small></p>
+                        <p className = "item-p-text">Café con <small>(Tostada/bollería)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">2.50€</p>
+                        <p className = "item-p-price">2.60€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Breakfast = () => {
                         <p className = "item-p-text">Café con barrita con tomate</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.70€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Breakfast = () => {
                         <p className = "item-p-text">Café con barrita con tomate y jamón</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.70€</p>
+                        <p className = "item-p-price">3.80€</p>
                     </Col>
                 </Row>
                 <Row>

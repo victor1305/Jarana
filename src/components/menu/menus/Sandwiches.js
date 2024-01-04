@@ -34,7 +34,7 @@ const Sandwich = () => {
                         <p className = "item-p-text">Vegetal</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">5.00€</p>
+                        <p className = "item-p-price">5.50€</p>
                     </Col>
                 </Row>
                 <Row>

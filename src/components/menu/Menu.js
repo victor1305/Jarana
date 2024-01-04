@@ -309,7 +309,7 @@ const Menu = () => {
                                         href = "#menu"
                                     >Licores y Café</Button>
                                 </Col>
-                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                {/* <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
                                         className = "bg-transparent menu-btn"
                                         variant = "dark"
@@ -336,7 +336,7 @@ const Menu = () => {
                                         onClick = {submitChristmasB}
                                         href = "#menu"
                                     >Menú Navidad 2</Button>
-                                </Col>
+                                </Col> */}
                             </Row>
                         </Container>
                     </Col>

@@ -53,10 +53,10 @@ const HotDishes = () => {
                         <p className = "item-p-text">Alitas de pollo (6 ó 12ud)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.00€</p>
+                        <p className = "item-p-price">6.50€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">11.50€</p>
+                        <p className = "item-p-price">12.00€</p>
                     </Col>
                 </Row>
                 <Row>
