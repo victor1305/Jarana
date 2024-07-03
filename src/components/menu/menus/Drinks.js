@@ -39,7 +39,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Jarra de cerveza <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.80€</p>
+                        <p className = "item-p-price">3.90€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -79,7 +79,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Tinto de verano</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.90€</p>
+                        <p className = "item-p-price">3.20€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -87,7 +87,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Jarra de tinto de verano</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.90€</p>
+                        <p className = "item-p-price">4.20€</p>
                     </Col>
                 </Row>
                 {/* <Row>

@@ -16,6 +16,7 @@ import Drinks from './menus/Drinks';
 import ChristmasA from './menus/ChristmasA';
 import ChristmasB from './menus/ChristmasB';
 import MixDishes from './menus/MixDishes';
+import Suggestions from './menus/Suggestions';
 
 const Menu = () => {
 
@@ -88,6 +89,11 @@ const Menu = () => {
         updateMenu({type: "mix-dishes"})
     }
 
+    const submitSuggestions = () => {
+
+        updateMenu({type: "suggestions"})
+    }
+
     const submitChristmasA = () => {
 
         updateMenu({type: "christmasA"})
@@ -111,6 +117,8 @@ const Menu = () => {
                             <Breakfast/>}
                             {menu.type === "snacks" &&
                             <Snacks/>}
+                            {menu.type === "suggestions" &&
+                            <Suggestions/>}
                             {menu.type === "hot-dishes" &&
                             <HotDishes/>}
                             {menu.type === "cold-dishes" &&
@@ -238,6 +246,20 @@ const Menu = () => {
                                         onClick = {submitTostas}
                                         href = "#menu"
                                     >Tostas</Button>
+                                </Col>
+                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                    <Button        
+                                        className = "bg-transparent menu-btn"
+                                        variant = "dark"
+                                        onClick = {submitSuggestions}
+                                        href = "#menu"
+                                    />
+                                    <Button
+                                        className = "bg-transparent menu-btn-text"
+                                        variant = "dark"
+                                        onClick = {submitSuggestions}
+                                        href = "#menu"
+                                    >Sugerencias</Button>
                                 </Col>
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
