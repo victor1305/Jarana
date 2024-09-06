@@ -18,7 +18,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Clásica</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.50€</p>
+                        <p className = "item-p-price">8.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa de rulo de cabra y cebolla caramelizada</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.50€</p>
+                        <p className = "item-p-price">10.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -42,7 +42,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Jarana <small>(carne, queso, bacon, lechuga, tomate, mayonesa y huevo frito)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.00€</p>
+                        <p className = "item-p-price">10.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -50,7 +50,7 @@ const Burgers = () => {
                         <p className = "item-p-text">Hamburguesa Suprema <small>(salsa ahumada, bacon crujiente, tomate asado, rulo de cabra, mayonesa, lechuga y cebolla caramelizada. Con un ligero toque picante)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.00€</p>
+                        <p className = "item-p-price">13.00€</p>
                     </Col>
                 </Row>
                 {/* <Row>

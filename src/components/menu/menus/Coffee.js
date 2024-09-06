@@ -18,7 +18,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Café con leche, solo o cortado</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">1.60€</p>
+                        <p className = "item-p-price">1.70€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -26,7 +26,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Café bombón</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.60€</p>
+                        <p className = "item-p-price">2.90€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -34,7 +34,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Infusiones</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">1.60€</p>
+                        <p className = "item-p-price">1.70€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -50,7 +50,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Crema de orujo, pacharán o hierbas</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.70€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -58,7 +58,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Brandy</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.70€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
                 <Row>
