@@ -32,7 +32,7 @@ const LongSandwich = () => {
                         <p className = "item-p-price">4.40€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">6.20€</p>
+                        <p className = "item-p-price">6.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -43,7 +43,7 @@ const LongSandwich = () => {
                         <p className = "item-p-price">4.40€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">6.20€</p>
+                        <p className = "item-p-price">6.50€</p>
                     </Col>
                 </Row>
                 <Row>

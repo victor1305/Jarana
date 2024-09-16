@@ -42,7 +42,7 @@ const Breakfast = () => {
                         <p className = "item-p-text">Café con <small>(Sandwich mixto, croissant mixto plancha o pincho de tortilla)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">4.50€</p>
+                        <p className = "item-p-price">5.00€</p>
                     </Col>
                 </Row>
                 <Row>
