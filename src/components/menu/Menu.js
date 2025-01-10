@@ -247,7 +247,7 @@ const Menu = () => {
                                         href = "#menu"
                                     >Tostas</Button>
                                 </Col>
-                                <Col md = {12} xl = {6} className = "btn-contaniner">
+                                {/* <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
                                         className = "bg-transparent menu-btn"
                                         variant = "dark"
@@ -260,7 +260,7 @@ const Menu = () => {
                                         onClick = {submitSuggestions}
                                         href = "#menu"
                                     >Sugerencias</Button>
-                                </Col>
+                                </Col> */}
                                 <Col md = {12} xl = {6} className = "btn-contaniner">
                                     <Button        
                                         className = "bg-transparent menu-btn"

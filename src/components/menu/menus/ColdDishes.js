@@ -23,7 +23,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Tabla de jamón ibérico (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">27.00€</p>
+                        <p className = "item-p-price">29.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -31,7 +31,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Tabla mixta (Por encargo) <small>(Jamón ibérico y queso curado)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">27.00€</p>
+                        <p className = "item-p-price">29.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -39,7 +39,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Ensalada mixta</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.90€</p>
+                        <p className = "item-p-price">10.20€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -47,7 +47,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Ensalada Cesar</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">11.50€</p>
+                        <p className = "item-p-price">12.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -55,7 +55,15 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Ensalada templada <small>(con bacon)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">11.00€</p>
+                        <p className = "item-p-price">12.00€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Ensalada de burrata con tomate</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">15.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -63,7 +71,7 @@ const ColdDishes = () => {
                         <p className = "item-p-text">Ensaladilla Rusa</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.00€</p>
+                        <p className = "item-p-price">10.20€</p>
                     </Col>
                 </Row>
                 {/* <Row>

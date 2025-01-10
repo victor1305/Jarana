@@ -29,7 +29,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Nachos</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.90€</p>
+                        <p className = "item-p-price">10.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -37,7 +37,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Huevos rotos con <small>(Jamon, chorizo, bacon o morcilla)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.80€</p>
+                        <p className = "item-p-price">13.20€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -45,7 +45,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Morcilla de Burgos</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.50€</p>
+                        <p className = "item-p-price">10.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -53,10 +53,10 @@ const HotDishes = () => {
                         <p className = "item-p-text">Alitas de pollo (6 ó 12ud)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">6.50€</p>
+                        <p className = "item-p-price">7.00€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.00€</p>
+                        <p className = "item-p-price">12.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -72,7 +72,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Salchipapas</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">9.00€</p>
+                        <p className = "item-p-price">9.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -83,7 +83,7 @@ const HotDishes = () => {
                         <p className = "item-p-price">7.20€</p>
                     </Col> */}
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.50€</p>
+                        <p className = "item-p-price">13.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -107,7 +107,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Choricitos a la sidra</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">10.00€</p>
+                        <p className = "item-p-price">10.50€</p>
                     </Col>
                 </Row>
                 {/* <Row>
@@ -126,7 +126,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Oreja a la plancha</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">13.00€</p>
+                        <p className = "item-p-price">13.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -145,10 +145,10 @@ const HotDishes = () => {
                         <p className = "item-p-text">Croquetas de Jamón (6 ó 11ud)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.00€</p>
+                        <p className = "item-p-price">13.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -156,10 +156,10 @@ const HotDishes = () => {
                         <p className = "item-p-text">Croquetas de Pollo (6 ó 11ud)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">7.00€</p>
+                        <p className = "item-p-price">7.50€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.00€</p>
+                        <p className = "item-p-price">13.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -167,10 +167,10 @@ const HotDishes = () => {
                         <p className = "item-p-text">Croquetas de Bacalao (6 ó 11ud)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">8.00€</p>
+                        <p className = "item-p-price">8.50€</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">13.00€</p>
+                        <p className = "item-p-price">14.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -186,7 +186,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Tigres</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">13.00€</p>
+                        <p className = "item-p-price">14.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -194,7 +194,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Pinchos Jarana</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">12.00€</p>
+                        <p className = "item-p-price">13.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -202,7 +202,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Revuelto de morcilla</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">13.00€</p>
+                        <p className = "item-p-price">13.50€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -210,7 +210,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Migas (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">15.00€</p>
+                        <p className = "item-p-price">16.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -226,7 +226,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Cachopo (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">25.00€</p>
+                        <p className = "item-p-price">27.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -234,7 +234,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Cachopo de cecina y rulo de cabra (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">27.00€</p>
+                        <p className = "item-p-price">29.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -242,7 +242,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Chuletón (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">30.00€</p>
+                        <p className = "item-p-price">32.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

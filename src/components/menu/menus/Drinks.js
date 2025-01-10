@@ -23,7 +23,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Caña de cerveza <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">1.90€</p>
+                        <p className = "item-p-price">2.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -31,7 +31,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Copa de cerveza <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.90€</p>
+                        <p className = "item-p-price">3.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -39,7 +39,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Jarra de cerveza <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.90€</p>
+                        <p className = "item-p-price">4.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -47,23 +47,23 @@ const Drinks = () => {
                         <p className = "item-p-text">Tercio <img className = "beer-logo" src = {estrellaLogo} alt = "logo-cerveza-estrella"/><img className = "beer-logo" src = {estrellaSin} alt = "logo-cerveza-sin"/><img className = "beer-logo" src = {mahouLogo} alt = "logo-cerveza-mahou"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.90€</p>
+                        <p className = "item-p-price">3.00€</p>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Tercio <img className = "beer-logo" src = {especialLogo} alt = "logo-cerveza"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">3.50€</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Tercio Estrella 0.0 Tostada <img className = "beer-logo" src = {estrellaTostada} alt = "logo-cerveza-estrella"/></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.20€</p>
+                        <p className = "item-p-price">3.30€</p>
                     </Col>
                 </Row>
                 {/* <Row>
@@ -79,7 +79,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Tinto de verano</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.20€</p>
+                        <p className = "item-p-price">3.30€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -87,7 +87,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Jarra de tinto de verano</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">4.20€</p>
+                        <p className = "item-p-price">4.30€</p>
                     </Col>
                 </Row>
                 {/* <Row>
@@ -103,7 +103,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Copa de Rueda</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.60€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -111,23 +111,23 @@ const Drinks = () => {
                         <p className = "item-p-text">Copa de Alma <small>(Semidulce)</small></p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.60€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Copa de Rioja</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">2.70€</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Copa de Ribera</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.80€</p>
+                        <p className = "item-p-price">2.90€</p>
                     </Col>
                 </Row>
                 {/* <Row>
@@ -143,7 +143,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Vermuth</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">3.10€</p>
+                        <p className = "item-p-price">3.20€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -151,12 +151,12 @@ const Drinks = () => {
                         <p className = "item-p-text">Refrescos</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.80€</p>
+                        <p className = "item-p-price">2.90€</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Aquarius o Nestea</p>
+                        <p className = "item-p-text">Red Bull</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">3.00€</p>
@@ -164,10 +164,18 @@ const Drinks = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Aquarius o Fuze Tea</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">3.20€</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Agua Mineral (0.5l)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">1.60€</p>
+                        <p className = "item-p-price">1.70€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -175,7 +183,7 @@ const Drinks = () => {
                         <p className = "item-p-text">Zumos</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.60€</p>
+                        <p className = "item-p-price">2.80€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

@@ -18,7 +18,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Café con leche, solo o cortado</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}> 
-                        <p className = "item-p-price">1.70€</p>
+                        <p className = "item-p-price">1.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -31,26 +31,34 @@ const Coffee = () => {
                 </Row>
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
-                        <p className = "item-p-text">Infusiones</p>
+                        <p className = "item-p-text">Cola Cao</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">1.70€</p>
+                        <p className = "item-p-price">2.20€</p>
                     </Col>
                 </Row>
                 <Row>
+                    <Col xs = {9} sm = {9} md = {9} xl = {9}>
+                        <p className = "item-p-text">Infusiones</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">1.80€</p>
+                    </Col>
+                </Row>
+                {/* <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Baileys</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">4.20€</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col xs = {9} sm = {9} md = {9} xl = {9}>
                         <p className = "item-p-text">Crema de orujo, pacharán o hierbas</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.80€</p>
+                        <p className = "item-p-price">2.90€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -58,7 +66,7 @@ const Coffee = () => {
                         <p className = "item-p-text">Brandy</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">2.80€</p>
+                        <p className = "item-p-price">2.90€</p>
                     </Col>
                 </Row>
                 <Row>
