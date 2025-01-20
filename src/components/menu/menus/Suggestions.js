@@ -31,7 +31,7 @@ const Suggestions = () => {
                         <p className = "item-p-text">Ensalada de burrata con tomate</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">15.00€</p>
+                        <p className = "item-p-price">16.00€</p>
                     </Col>
                 </Row>
                 <div className = "item-footer-container">

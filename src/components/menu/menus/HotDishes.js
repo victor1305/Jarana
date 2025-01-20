@@ -83,7 +83,7 @@ const HotDishes = () => {
                         <p className = "item-p-price">7.20€</p>
                     </Col> */}
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">13.50€</p>
+                        <p className = "item-p-price">13.80€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -151,7 +151,7 @@ const HotDishes = () => {
                         <p className = "item-p-price">13.00€</p>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col xs = {6} sm = {6} md = {6} xl = {6}>
                         <p className = "item-p-text">Croquetas de Pollo (6 ó 11ud)</p>
                     </Col>
@@ -160,6 +160,17 @@ const HotDishes = () => {
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
                         <p className = "item-p-price">13.00€</p>
+                    </Col>
+                </Row> */}
+                <Row>
+                    <Col xs = {6} sm = {6} md = {6} xl = {6}>
+                        <p className = "item-p-text">Croquetas de huevos fritos con chorizo (6 ó 11ud)</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">8.50€</p>
+                    </Col>
+                    <Col xs = {3} sm = {3} md = {3} xl = {3}>
+                        <p className = "item-p-price">14.00€</p>
                     </Col>
                 </Row>
                 <Row>
@@ -218,7 +229,7 @@ const HotDishes = () => {
                         <p className = "item-p-text">Parrillada de verduras (Por encargo)</p>
                     </Col>
                     <Col xs = {3} sm = {3} md = {3} xl = {3}>
-                        <p className = "item-p-price">18.00€</p>
+                        <p className = "item-p-price">20.00€</p>
                     </Col>
                 </Row>
                 <Row>
